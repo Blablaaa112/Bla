@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Jeruk Segar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff8c00;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            color: blue;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            margin: 10px;
+            text-align: center;
+            padding: 20px;
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product-card h3 {
+            color: #ff8c00;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Toko Jeruk Segar</h1>
+        <p>Jeruk Segar dan Berkualitas untuk Anda</p>
+    </header>
+
+    <nav>
+        <a href="#home">Beranda</a>
+        <a href="#products">Produk</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <div class="container" id="home">
+        <h2>Selamat datang di Toko Jeruk Segar!</h2>
+        <p>Temukan jeruk segar dengan kualitas terbaik untuk kebutuhan Anda!</p>
+    </div>
+
+    <div class="container" id="products">
+        <h2>Produk Kami</h2>
+        <div class="product">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Jeruk 1">
+                <h3>Jeruk Manis</h3>
+                <p>Harga: Rp 20.000/kg</p>
+                <button>Tambah ke Keranjang</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Jeruk 2">
+                <h3>Jeruk Nipis</h3>
+                <p>Harga: Rp 15.000/kg</p>
+                <button>Tambah ke Keranjang</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Jeruk 3">
+                <h3>Jeruk Bali</h3>
+                <p>Harga: Rp 25.000/kg</p>
+                <button>Tambah ke Keranjang</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah toko yang menyediakan jeruk segar dan berkualitas, langsung dari petani untuk Anda.</p>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Jika Anda memiliki pertanyaan, silakan hubungi kami melalui:</p>
+        <p>Email: info@tokojeruk.com</p>
+        <p>Telepon: 08123456789</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Toko Jeruk Segar. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
